@@ -4,7 +4,7 @@
 
 O App delivery é um aplicativo de vendas de produtos para uma distribuidora de bebidas.
 
-O projeto Fullstack JavaScript desenvolvido em grupo. Foi desenvolvido uma API consumindo um banco de dados, utilizando principios SOLID e arquitetura MSC com JavaScript, POO e dockerização(dockerfile, docker-compose). Utilizando modelagem de dados através do Sequelize, onde tem a finalidade de ser consumida por um front-end, que foi desenvolvido utilizando o React, context, HTML, CSS.
+O projeto Fullstack JavaScript desenvolvido em grupo. Foi desenvolvido uma API consumindo um banco de dados, utilizando principios SOLID e arquitetura MSC com JavaScript, dockerização(dockerfile, docker-compose). Utilizando modelagem de dados através do Sequelize, onde tem a finalidade de ser consumida por um front-end, que foi desenvolvido utilizando o React, context, HTML, CSS.
 
 - O aplicativo tem:
 
