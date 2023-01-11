@@ -16,13 +16,6 @@ O projeto Fullstack JavaScript desenvolvido em grupo. Foi desenvolvido uma API c
 
  - Criar e manipular dados com MySQL através do Sequelize, armazenando os dados;
  - Autenticação de usuários, vendedores e administrador utilizando o JWT;
- - Listar clubs cadastrados;
- - Listar partidas em andamento e finalizados;
- - Criar novas partidas;
- - Atualizar placar em partidas em andamento;
- - Finalizar partidas em andamento;
- - Gerar um leaderboard de time de fora e time de casa, e de modo geral, utilizando ordenação avaliativos de critérios para o placar;
- - Realizando a dockerização do back-end e front-end, utilizando docker-compose;
 
 # Técnologias utilizadas:
 
@@ -66,47 +59,6 @@ Para rodar a aplicação você vai precisar ter o [Docker](https://docs.docker.c
 
 </details>
 
-## Para rodar o back-end
-
-<details>
- <summary><strong>Observações:</strong></summary><br />
-
-Para realizar as requisições em back-end, você pode usar a extensão Thunder Client do VSCode ou os clientes HTTP Postman ou Insomnia, ou ainda utilizar o próprio frontend pra navegar entre as telas.
-
-  - [Thunder Client](https://www.thunderclient.com/)
-  - [Postman](https://www.postman.com/)
-  - [Insomnia](https://insomnia.rest/)
-
-</details>
-
-## Rodando o front-end
-
-<details>
- <summary><strong>Front-End</strong></summary><br />
-
-- Para rodar o front-end que consome a API desenvolvida basta executar o comando abaixo a partir da raiz do projeto:
-
-  ```json
-    cd front-end/ && npm start
-  ```
-
-- Para realizar o login na aplicação, com o perfil de administrador e poder adicionar um novo vendedor, terá que acessar com os seguintes dados:
-
-  ```json
-    login: adm@deliveryapp.com
-    senha: --adm2@21!!--
-  ```
-  
-- Para realizar o login na aplicação, com o perfil de vendedor e poder ter acesso a todas as vendas no seu nome, terá que acessar com os seguintes dados:
-
-  ```json
-    login: fulana@deliveryapp.com
-    senha: fulana@123
-  ```
-
-</details>
-
-
   <summary>
     <strong>🪛 Scripts relevantes do <code>package.json</code> principal</strong>
   </summary><br>
@@ -145,6 +97,46 @@ Para realizar as requisições em back-end, você pode usar a extensão Thunder 
     - *uso (na raiz do projeto): `npm run test:dev:report`, `npm run test:dev:report "01login 02register"` ou ainda `npm run test:dev:report "01 02"`*;
     
    - `npm run dev:prestart` (esse comando também restaurará o banco de dados, caso o `.env` esteja configurado corretamente).
+
+</details>
+
+## Para rodar o back-end
+
+<details>
+ <summary><strong>Observações:</strong></summary><br />
+
+Para realizar as requisições em back-end, você pode usar a extensão Thunder Client do VSCode ou os clientes HTTP Postman ou Insomnia, ou ainda utilizar o próprio frontend pra navegar entre as telas.
+
+  - [Thunder Client](https://www.thunderclient.com/)
+  - [Postman](https://www.postman.com/)
+  - [Insomnia](https://insomnia.rest/)
+
+</details>
+
+## Rodando o front-end
+
+<details>
+ <summary><strong>Front-End</strong></summary><br />
+
+- Para rodar o front-end que consome a API desenvolvida basta executar o comando abaixo a partir da raiz do projeto:
+
+  ```json
+    cd front-end/ && npm start
+  ```
+
+- Para realizar o login na aplicação, com o perfil de administrador e poder adicionar um novo vendedor, terá que acessar com os seguintes dados:
+
+  ```json
+    login: adm@deliveryapp.com
+    senha: --adm2@21!!--
+  ```
+  
+- Para realizar o login na aplicação, com o perfil de vendedor e poder ter acesso a todas as vendas no seu nome, terá que acessar com os seguintes dados:
+
+  ```json
+    login: fulana@deliveryapp.com
+    senha: fulana@123
+  ```
 
 </details>
 
